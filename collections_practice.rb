@@ -36,4 +36,6 @@ def sum_array(summed)
 end
 
 def add_s(addstuff)
+  addstuff.collect do |word|
+    
 end
