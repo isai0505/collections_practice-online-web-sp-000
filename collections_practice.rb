@@ -34,3 +34,6 @@ end
 def sum_array(summed)
   summed.sum
 end
+
+def add_s(addstuff)
+end
