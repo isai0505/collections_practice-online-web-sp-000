@@ -37,5 +37,10 @@ end
 
 def add_s(addstuff)
   addstuff.collect do |word|
-    
+    if addstuff[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end
