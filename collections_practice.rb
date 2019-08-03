@@ -30,3 +30,7 @@ def find_a(looks)
     word[0] == "a"
 end
 end
+
+def sum_array(summed)
+  summed.sum
+end
