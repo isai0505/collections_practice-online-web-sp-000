@@ -24,3 +24,7 @@ def kesha_maker(money)
     word[2] = "$"
   end
 end
+
+def find_a(looks)
+  looks.start_with?(a)
+end
