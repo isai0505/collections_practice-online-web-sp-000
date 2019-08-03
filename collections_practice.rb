@@ -26,7 +26,7 @@ def kesha_maker(money)
 end
 
 def find_a(looks)
-  looks.find do |word|
+  looks.find_all do |word|
     word[0] == "a"
 end
 end
