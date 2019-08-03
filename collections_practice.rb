@@ -29,3 +29,4 @@ def find_a(looks)
   looks.find_all do |word|
     word[0] == "a"
 end
+end
